@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		787326EF2A9B724500AF4339 /* GalleryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787326ED2A9B724500AF4339 /* GalleryViewController.swift */; };
 		787326F02A9B724500AF4339 /* GalleryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 787326EE2A9B724500AF4339 /* GalleryViewController.xib */; };
+		7884C4BC2AAE384000357305 /* URLManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7884C4BB2AAE384000357305 /* URLManager.swift */; };
 		78AF277B2A925C610085B4EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AF277A2A925C610085B4EE /* AppDelegate.swift */; };
 		78AF277D2A925C610085B4EE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AF277C2A925C610085B4EE /* SceneDelegate.swift */; };
 		78AF277F2A925C610085B4EE /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AF277E2A925C610085B4EE /* SplashViewController.swift */; };
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		787326ED2A9B724500AF4339 /* GalleryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		787326EE2A9B724500AF4339 /* GalleryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GalleryViewController.xib; sourceTree = "<group>"; };
+		7884C4BB2AAE384000357305 /* URLManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLManager.swift; sourceTree = "<group>"; };
 		78AF27772A925C610085B4EE /* GalleryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GalleryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78AF277A2A925C610085B4EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78AF277C2A925C610085B4EE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				78AF279F2A9287BC0085B4EE /* String+Delete.swift */,
+				7884C4BB2AAE384000357305 /* URLManager.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -205,6 +208,7 @@
 				787326EF2A9B724500AF4339 /* GalleryViewController.swift in Sources */,
 				78AF277B2A925C610085B4EE /* AppDelegate.swift in Sources */,
 				78AF277D2A925C610085B4EE /* SceneDelegate.swift in Sources */,
+				7884C4BC2AAE384000357305 /* URLManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

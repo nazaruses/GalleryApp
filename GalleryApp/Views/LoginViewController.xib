@@ -12,7 +12,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LoginViewController" customModule="GalleryApp" customModuleProvider="target">
             <connections>
                 <outlet property="backspaceButton" destination="Bn1-RJ-a2U" id="k6N-ii-CjZ"/>
-                <outlet property="faceIdButton" destination="Kfb-xs-MGx" id="sng-rq-JvF"/>
+                <outlet property="faceIdButton" destination="Kfb-xs-MGx" id="9NF-A9-nvK"/>
                 <outlet property="passField" destination="8wn-Y3-P4I" id="cRJ-Cz-qtc"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outletCollection property="numButtons" destination="Kwi-kE-DsX" collectionClass="NSMutableArray" id="lWb-ei-AvE"/>
@@ -42,7 +42,7 @@
                                     <rect key="frame" x="0.0" y="0.0" width="131" height="154.66666666666666"/>
                                     <subviews>
                                         <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kwi-kE-DsX">
-                                            <rect key="frame" x="41" y="60.333333333333314" width="48.999999999999972" height="34.333333333333343"/>
+                                            <rect key="frame" x="41" y="60.333333333333314" width="49" height="34.333333333333343"/>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain">
                                                 <imageReference key="image" image="1.lane" catalog="system" variableValue="0.0"/>
@@ -238,7 +238,7 @@
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain" image="faceid" catalog="system"/>
                                             <connections>
-                                                <action selector="enterByFaceid:" destination="-1" eventType="touchUpInside" id="geB-s9-Ard"/>
+                                                <action selector="enterByFaceid:" destination="-1" eventType="touchUpInside" id="UGI-bc-Pho"/>
                                             </connections>
                                         </button>
                                     </subviews>
